@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Univia Pro';
+    src: url('https://raw.githubusercontent.com/dayanidigv/THB/main/7751Univia.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/dayanidigv/THB/main/7751Univia.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.375rem; /* Tailwind's rounded-lg */
+}
+.hidden {
+    display: none;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+.dot {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+.journey-content {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+.responsive-text {
+    font-size: 2vw;
+}
+@media (max-width: 1024px) {
+    .journey-content {
+        padding: 10px;
+    }
+    .responsive-text {
+        font-size: 4vw;
+    }
+}
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 6vw;
+    }
+}
+@media (max-width: 640px) {
+    .responsive-text {
+        font-size: 8vw;
+    }
+}
+@media (max-width: 640px) {
+    .responsive-section {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+    .responsive-section img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#gallery-carousel {
+    height: fit-content;
+}
+
+#gallery-carousel .gallery-carousel-items {
+    opacity: 0.25;
+    padding-top: 100px;
+    transition: opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), padding-top 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#gallery-carousel .gallery-carousel-items .gallery-carousel-body-content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#gallery-carousel .gallery-carousel-items.active {
+    opacity: 1;
+    padding-top: 0px;
+}
+
+#gallery-carousel .gallery-carousel-items.active .gallery-carousel-body-content {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+}
+
+
+/* FAQS */
+.faqs .faqs-items p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding-top 0.3s ease-in-out;
+    opacity: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+.faqs .faqs-items.active  {
+    border: 1px solid #cb2f1d;
+}
+
+.faqs .faqs-items.active button {
+    background-color: #cb2f1d;
+    color: white;
+}
+.faqs .faqs-items.active p {
+    max-height: 500px; 
+    opacity: 1;
+    padding-top: 1rem;
+}
+
+/* SVG rotation */
+.faqs .faqs-items button svg {
+    transition: transform 0.3s ease-in-out;
+}
+
+.faqs .faqs-items.active button svg {
+    transform: rotate(180deg);
+}
+
+/* Footer */
+
+#footer-talent-development {
+    overflow: hidden;
+}
+
+#footer-talent-development .sub-talent-development {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding-top 0.3s ease-in-out;
+    opacity: 0;
+    padding-top: 0;
+}
+
+#footer-talent-development.active .sub-talent-development {
+    max-height: 500px; 
+    opacity: 1;
+}
+
+#footer-talent-development button svg {
+    transition: transform 0.3s ease-in-out;
+}
+
+#footer-talent-development.active button svg {
+    transform: rotate(180deg);
+}
