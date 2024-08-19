@@ -83,25 +83,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const data = {
         "2021": {
-            'title':'Telangana Startup connect',
+            'title':'Startup connect',
             "description": "We launched the Startup connect in Telangana",
             'month': "DEC",
             "image": "https://s3-alpha-sig.figma.com/img/5c8c/33ef/1afbf20a5bf970de4b0a8df919169998?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WlEEWAkEqMVX2WRnF~nS4KeiaOqEcuPOrIDzvXRx8vHZ7Ps7cc6Q-uf-moaU7wkSwITzqloK0X4j~JQu-QaS7WROheggg8y8NtrkweNKau1MHJQd9gucgU6HV~pNdnwncMeCCe6LRComZVQIu6biq76OmuWuOQ2m1xzxLjRSpcYsfS5INHbdFNRzqGl6IqByNQ9oiofj5Ea68syPs2NuyM~B0-p51ngzTLRozZmz67c9p4kH~XkFCAuqIDq5O7IkoEVD3fRYsEx10EQAXcbVJUzKuBJMgSZxlcGI~~uA-BCtgft8HXDfLP7rHIodjcWvsxfjcnLlEm9FY4jA5mvWOw__"
         },
         "2022": {
-            'title':'Bangalore Startup connect',
+            'title':'Startup connect',
             "description": "We launched the Startup Connect in Bangalore",
             'month': "NOV",
             "image": "https://s3-alpha-sig.figma.com/img/064a/e4b4/a4b9f55ec1b4bd9416b5453cfb6b8481?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wib7mFpkQrx13KIZ7eUloPSXj~xbMA786S0gArNsBauETYXFsgF5-n1Kahi1cQ-g2dsY~g9UaCDqVhw8OTqesjBRcVNmr7Yi7c6gym8c858lSdHouLl5u9taX80L3Yg56FqBdS9LS73-kzbTrgxywOdqA4~nkVzosp~0v5WZshpNRuS702mxfKeuBXkA1m7chX0jLTdGDv6OaapoTcP0pxIz9B5ex5TX4a-L2hopmq1Xqu7lVw0P8~-KRwSOfdNUwvgjFsgZLwZlj4W4Yt72ygj4uWF2W4MXqFJdxWcMisCrNkGe-XMTybs37sBLEDg0Bwwm9qwF4kZOg6Ph9FVuBg__"
         },
         "2023": {
-            'title':'Singapore Raw Stories',
+            'title':'Raw Stories',
             "description": "We launched the Raw Stories in Singapore",
             'month': "JUL",
             "image": "https://s3-alpha-sig.figma.com/img/2c57/d866/05ec11815bfe1b8df8511a91ac592979?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gB1lqhrOXNUlK8BmI1Sytsz8C75t7aFlJtVSOG5IpasO4ZfEAIDzyBe1BnJ5PxDVcGKcIh5ieeAz7Onbk~Ti2KBrbHVeR7ac1c5cBZiPin7apHmte~Gb53q7ElukUorf31vZClWlyw~migno0mPA6DFqaF8Bzfcdq7Rj3j1Grnznxljx~6sM~Xm3wZrRJ96rkXSXQYugMNIWyNzFvcCCW3oxLca1oqsGDtrXLPrAXXnjsvWXm2IuY5r1lNUrTvvr9wwNEN2BSyO86yAvtQZrnwkALD88PQZFcIg5ac~7HN8dLltUB6w0TmyIpAQo8aEahDlgnoCqpMKBAK6t5BgHwg__"
         },
         "2024": {
-            'title':'Dubai Raw Stories',
+            'title':'Raw Stories',
             "description": "We launched the Raw Stories in Dubai",
             'month': "MAY",
             "image": "https://s3-alpha-sig.figma.com/img/9798/43e0/3042d757703d98d1549f5e1ccbc3a8cc?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CKh9jVgi8lZ-gEy1WTse9kNYnVVLMUjRjnc7QN2S3j1a0JL-8A4s289iDegHusDV3WHfEuZplkrvazTuQDEFLCoH7W7l71kBbivi68XKD9X~th53dtamYIW-t51jhZuOHG1MWHJakZoRaV2s1rG-HDy9VLvrrqrW9Br2aTjHWprKGQAOHq7LY42nrRxwGR7MtIsEXKmq80rfdBlNoXCKTVtUK3oP7dVI0fHMznWYF-CB3QOCkj8tHOA9scOR1E8WdQqCLrVq26GCZqD2TZ2VE2JiPmhuTP62dgL7arQDpI9BBMBnCwYSL3Lyx0yivull8pZb2W-Nt1P4EFbcOfsdrw__"
