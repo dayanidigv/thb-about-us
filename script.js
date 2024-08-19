@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateCarouselPosition(index) {
         const slideWidth = galleryCarouselItems[index].offsetWidth;
-        const slideMargin = 45; 
+        const slideMargin = 50; 
         const containerWidth = window.innerWidth;
     
         const slideTotalWidth = slideWidth + slideMargin;
